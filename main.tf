@@ -21,3 +21,4 @@ resource "google_compute_instance" "debian_vm" {
       # Assigns an external IP
     }
   }
+}  # <-- Missing closing brace added here
